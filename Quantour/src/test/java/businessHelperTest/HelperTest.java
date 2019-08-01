@@ -1,14 +1,13 @@
 package businessHelperTest;
 
-import java.util.ArrayList;
-import java.util.Date;
-
-import org.junit.Test;
-
 import bussinesslogic.helper.StrategyHelper;
 import data.StockStrategyServiceImpl;
 import dataService.StockStrategyService;
 import model.StrategyType;
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Date;
 
 public class HelperTest {
 

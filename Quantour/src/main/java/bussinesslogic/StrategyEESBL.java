@@ -1,17 +1,5 @@
 package bussinesslogic;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-//import java.util.Calendar;
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-//import java.util.LinkedHashMap;
-//import java.util.Map;
-//import bussinesslogic.helper.DataHelper;
-import bussinesslogic.helper.AVGGetComparator;
-import bussinesslogic.helper.MomentumGetComparator;
 import bussinesslogic.helper.PlateProfit;
 import bussinesslogic.helper.Statistics;
 import bussinesslogic.helper.StrategyHelper;
@@ -24,10 +12,21 @@ import model.StockPlate;
 import model.StrategyType;
 import model.TimeType;
 import po.StockPO;
-//import po.StockPO;
 import po.YieldPO;
 import utility.DateHelper;
 import vo.StrategyExcessEarningVO;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+//import java.util.Calendar;
+//import java.util.LinkedHashMap;
+//import java.util.Map;
+//import bussinesslogic.helper.DataHelper;
+//import po.StockPO;
 //import vo.StrategyResultVO;
 
 public class StrategyEESBL implements GetExcessEarningAndStrategyService{

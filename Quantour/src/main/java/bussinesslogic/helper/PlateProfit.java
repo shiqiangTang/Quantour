@@ -1,16 +1,14 @@
 package bussinesslogic.helper;
 
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import org.junit.experimental.theories.Theories;
-
 import data.StockDataServiceImpl;
 import dataService.StockDataService;
 import model.StockPlate;
 import po.StockPO;
 import utility.DateHelper;
+
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class PlateProfit {
 	

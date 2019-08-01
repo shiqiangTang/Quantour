@@ -1,6 +1,5 @@
 package presentation.chart;
 
-import dao.DateHelper;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
@@ -9,7 +8,6 @@ import javafx.scene.layout.VBox;
 import vo.LogVO;
 import vo.StockCloseValueVO;
 
-import javax.lang.model.type.ArrayType;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,11 +1,11 @@
 package bussinesslogic.helper;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 import model.StockPlate;
 import model.StrategyType;
 import utility.DateHelper;
+
+import java.util.ArrayList;
+import java.util.Date;
 
 public class StrategyHelper {
 	

@@ -1,16 +1,11 @@
 package dao.connection;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import po.StockPO;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.LinkedHashMap;
-
-import po.StockPO;
 
 public class TxtSort {
 	ArrayList<Integer> test = new ArrayList<>();

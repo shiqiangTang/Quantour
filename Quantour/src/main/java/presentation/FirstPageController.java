@@ -1,38 +1,32 @@
 package presentation;
 
 
-import java.time.LocalDate;
-import java.util.Map;
-
 import bussinesslogic.StockInfoBL;
+import bussinesslogicservice.StockInfoService;
+import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Region;
-import javafx.stage.Popup;
-
-import bussinesslogicservice.StockInfoService;
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
-import javafx.collections.ObservableList;
-import javafx.fxml.FXML;
-
-import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
+import javafx.stage.Popup;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import presentation.dialog.MyDialog;
 import presentation.viewHelper.LogoRotate;
 import presentation.viewHelper.Trolley;
 import vo.HotStockVO;
+
+import java.time.LocalDate;
+import java.util.Map;
 
 
 public class FirstPageController {

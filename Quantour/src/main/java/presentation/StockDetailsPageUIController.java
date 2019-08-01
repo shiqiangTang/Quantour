@@ -1,9 +1,5 @@
 package presentation;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Date;
-
 import bussinesslogic.StockInfoBL;
 import bussinesslogicservice.StockInfoService;
 import javafx.embed.swing.SwingNode;
@@ -14,7 +10,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.util.Callback;
 import presentation.chart.KlineChart;
 import presentation.chart.StockLineChart;
 import presentation.dialog.MyDialog;
@@ -24,6 +19,9 @@ import utility.DatePickerHelper;
 import vo.StockAverageValueVO;
 import vo.StockInfoForK_lineVO;
 import vo.StockVO;
+
+import java.util.ArrayList;
+import java.util.Date;
 
 public class StockDetailsPageUIController {
 

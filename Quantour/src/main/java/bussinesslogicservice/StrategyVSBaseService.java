@@ -2,9 +2,6 @@ package bussinesslogicservice;
 
 import model.StockPlate;
 import model.StrategyType;
-import vo.LogVO;
-import vo.NoneStrategyResultVO;
-import vo.StockVO;
 import vo.StrategyResultVO;
 
 import java.util.ArrayList;

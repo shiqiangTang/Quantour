@@ -1,9 +1,7 @@
 package presentation.chart;
 
 import javafx.embed.swing.SwingNode;
-import javafx.scene.image.*;
 import org.jfree.chart.ChartPanel;
-import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.*;
 import org.jfree.chart.plot.XYPlot;
@@ -14,10 +12,6 @@ import org.jfree.data.time.ohlc.OHLCSeriesCollection;
 import vo.StockInfoForK_lineVO;
 
 import java.awt.*;
-import java.awt.Image;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;

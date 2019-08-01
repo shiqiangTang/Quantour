@@ -1,21 +1,19 @@
 package data;
 
+import bussinesslogic.BlockServiceImpl;
+import bussinesslogic.StockInfoBL;
+import bussinesslogicservice.BlockService;
+import bussinesslogicservice.StockInfoService;
+import dataService.BlockDataService;
+import model.StockPlate;
+import org.junit.Before;
+import org.junit.Test;
+import po.StockPO;
+import vo.StockVO;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Map;
-
-import bussinesslogic.BlockServiceImpl;
-import bussinesslogicservice.BlockService;
-import model.StockPlate;
-import po.StockPO;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import bussinesslogic.StockInfoBL;
-import bussinesslogicservice.StockInfoService;
-import dataService.BlockDataService;
-import vo.StockVO;
 
 public class StockInfoServiceTest {
 	StockInfoService stockInfoService;

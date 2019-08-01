@@ -1,9 +1,9 @@
 package dataService;
 
+import po.StockPO;
+
 import java.util.Date;
 import java.util.Map;
-
-import po.StockPO;
 
 public interface StockDataService {
 	public Map<Date, StockPO> getSpecificDateStock(Date start,Date end,int stockPOId);

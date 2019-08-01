@@ -1,20 +1,17 @@
 package data;
 
-import static org.junit.Assert.*;
+import bussinesslogic.StockInfoBL;
+import bussinesslogicservice.StockInfoService;
+import dao.DateHelper;
+import org.junit.Before;
+import org.junit.Test;
+import vo.HotStockVO;
+import vo.StockCloseValueVO;
 
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import bussinesslogic.StockInfoBL;
-import bussinesslogicservice.StockInfoService;
-import dao.DateHelper;
-import vo.HotStockVO;
-import vo.StockCloseValueVO;
 
 public class StockInfoServiceTest2 {
 	private StockInfoService stockInfoService;

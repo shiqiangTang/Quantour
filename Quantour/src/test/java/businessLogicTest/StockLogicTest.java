@@ -1,18 +1,17 @@
 package businessLogicTest;
 
-import static org.junit.Assert.*;
+import bussinesslogic.StockInfoBL;
+import bussinesslogicservice.StockInfoService;
+import org.junit.Test;
+import vo.MarketInfoVO;
+import vo.StockAverageValueVO;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import org.junit.Test;
-
-import bussinesslogic.StockInfoBL;
-import bussinesslogicservice.StockInfoService;
-import vo.MarketInfoVO;
-import vo.StockAverageValueVO;
+import static org.junit.Assert.assertEquals;
 
 public class StockLogicTest {
     

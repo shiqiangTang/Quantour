@@ -1,17 +1,6 @@
 package bussinesslogic;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import bussinesslogic.helper.AVGGetComparator;
-import bussinesslogic.helper.DepositRate;
-import bussinesslogic.helper.MomentumGetComparator;
-import bussinesslogic.helper.PlateProfit;
-import bussinesslogic.helper.Statistics;
-import bussinesslogic.helper.StrategyHelper;
+import bussinesslogic.helper.*;
 import bussinesslogicservice.StrategyVSBaseService;
 import data.StockDataServiceImpl;
 import data.StockStrategyServiceImpl;
@@ -22,6 +11,12 @@ import model.StrategyType;
 import po.YieldPO;
 import utility.DateHelper;
 import vo.StrategyResultVO;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class StrategyVSBaseBL implements StrategyVSBaseService{
     StockDataService stockDataService=new StockDataServiceImpl();

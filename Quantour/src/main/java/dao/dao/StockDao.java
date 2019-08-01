@@ -1,12 +1,11 @@
 package dao.dao;
 
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
 import model.StockPlate;
 import po.StockPO;
+
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 public interface StockDao {
 	//insert a PO

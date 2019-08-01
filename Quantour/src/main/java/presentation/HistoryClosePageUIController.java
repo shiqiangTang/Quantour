@@ -1,7 +1,5 @@
 package presentation;
 
-import java.util.Date;
-
 import bussinesslogicservice.StockInfoService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -11,6 +9,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import vo.StockCloseValueVO;
+
+import java.util.Date;
 
 public class HistoryClosePageUIController {
 	@FXML private TableView<StockCloseValueVO> tableView;

@@ -1,6 +1,5 @@
 package bussinesslogicservice.newFolder;
 
-import model.PrecisionIndex;
 import model.StockPlate;
 import model.StrategyStandard;
 import vo.iterationThreeVO.strategyPageVO.PrecisionVO;

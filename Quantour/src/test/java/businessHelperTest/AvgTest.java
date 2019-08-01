@@ -1,13 +1,10 @@
 package businessHelperTest;
 
-import static org.junit.Assert.*;
+import bussinesslogic.helper.AVGGetComparator;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Date;
-
-import org.junit.Test;
-
-import bussinesslogic.helper.AVGGetComparator;
 
 public class AvgTest {
     

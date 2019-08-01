@@ -1,10 +1,10 @@
 package presentation;
 
-import java.io.IOException;
-
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class HistoryClosePageUI extends VBox{
 	public HistoryClosePageUI(Stage stage, int id)

@@ -1,10 +1,5 @@
 package businessLogicTest;
 
-import static org.junit.Assert.*;
-
-import java.util.Date;
-
-import org.junit.Test;
 import bussinesslogic.ColumnDiagramServiceImpl;
 import bussinesslogic.StrategyEESBL;
 import bussinesslogic.StrategyVSBaseBL;
@@ -12,8 +7,11 @@ import bussinesslogicservice.ColumnDiagramService;
 import bussinesslogicservice.GetExcessEarningAndStrategyService;
 import bussinesslogicservice.StrategyVSBaseService;
 import model.StrategyType;
+import org.junit.Test;
 import vo.ColumnDiagramVO;
 import vo.StrategyResultVO;
+
+import java.util.Date;
 
 public class businessBackTest {
     ColumnDiagramService columnDiagramService=new ColumnDiagramServiceImpl();

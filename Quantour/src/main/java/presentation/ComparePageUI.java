@@ -1,14 +1,12 @@
 package presentation;
 
-import java.io.IOException;
-import java.time.LocalDate;
-
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.time.LocalDate;
 
 public class ComparePageUI extends VBox{
 	public ComparePageUI(Stage stage, ScrollPane contentScrollPane, String stock1, String stock2, LocalDate startDate,LocalDate endDate) {

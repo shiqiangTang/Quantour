@@ -1,11 +1,5 @@
 package bussinesslogic.helper;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.Map;
-
 import bussinesslogic.BlockServiceImpl;
 import bussinesslogicservice.BlockService;
 import data.StockDataServiceImpl;
@@ -17,6 +11,12 @@ import po.StockPO;
 import utility.DateHelper;
 import vo.AVGLineValueVO;
 import vo.StockVO;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
 
 public class AVGGetComparator {
 	static int csi300=300;

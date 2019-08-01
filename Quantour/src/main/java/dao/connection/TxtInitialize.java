@@ -1,19 +1,11 @@
 package dao.connection;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import po.StockPO;
+
+import java.io.*;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-import dao.DateHelper;
-import jdk.jfr.events.FileWriteEvent;
-import po.StockPO;
 
 public class TxtInitialize {
 	public static Map<Integer,LinkedHashMap<Date, StockPO>> stockPOs = null;

@@ -1,10 +1,5 @@
 package bussinesslogic.helper;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.Map;
-
 import bussinesslogic.BlockServiceImpl;
 import bussinesslogicservice.BlockService;
 import data.StockDataServiceImpl;
@@ -16,6 +11,11 @@ import po.StockPO;
 import po.YieldPO;
 import utility.DateHelper;
 import vo.StockVO;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
 
 public class MomentumGetComparator {
 	static int csi300=300;

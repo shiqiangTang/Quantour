@@ -8,7 +8,6 @@ import javafx.scene.layout.VBox;
 import vo.ColumnDiagramVO;
 
 import java.text.DecimalFormat;
-import java.util.Iterator;
 import java.util.Map;
 
 /**

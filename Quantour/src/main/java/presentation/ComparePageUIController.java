@@ -2,15 +2,11 @@ package presentation;
 
 import bussinesslogic.StockInfoBL;
 import bussinesslogicservice.StockInfoService;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import javafx.util.Callback;
 import presentation.chart.CompareLineChart;
 import presentation.dialog.MyDialog;
 import utility.DateHelper;
@@ -18,14 +14,10 @@ import utility.DatePickerHelper;
 import vo.LogVO;
 import vo.StockCloseValueVO;
 import vo.StockCompare;
-import vo.StockVO;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 public class ComparePageUIController {

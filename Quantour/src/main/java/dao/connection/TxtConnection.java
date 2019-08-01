@@ -1,17 +1,12 @@
 package dao.connection;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
+import dao.DateHelper;
+import po.StockPO;
+
+import java.io.*;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-import dao.DateHelper;
-import po.StockPO;
 
 public class TxtConnection {
 	//public static ArrayList<StockPO> stockPOs = null;

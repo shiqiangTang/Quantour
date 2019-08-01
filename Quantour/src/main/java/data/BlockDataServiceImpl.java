@@ -1,14 +1,13 @@
 package data;
 
+import dao.dao.StockDao;
+import dao.daoImpl.StockDaoImpl;
 import dataService.BlockDataService;
 import model.StockPlate;
 import po.StockPO;
 
 import java.util.Date;
 import java.util.Map;
-
-import dao.dao.StockDao;
-import dao.daoImpl.StockDaoImpl;
 
 /**
  * Created by xiezhenyu on 2017/4/5

@@ -1,7 +1,6 @@
 package presentation.viewHelper;
 
 import javafx.scene.control.TableCell;
-import vo.StockVO;
 import vo.TrolleyVO;
 
 /**

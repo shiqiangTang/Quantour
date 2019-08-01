@@ -1,20 +1,14 @@
 package data;
 
-import static org.junit.Assert.*;
+import dao.DateHelper;
+import dao.connection.TxtConnection;
+import dataService.StockDataService;
+import org.junit.Before;
+import org.junit.Test;
+import po.StockPO;
 
 import java.util.Date;
 import java.util.Map;
-
-import javax.swing.text.Highlighter.Highlight;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import dao.DateHelper;
-import dao.connection.TxtConnection;
-import data.StockDataServiceImpl;
-import dataService.StockDataService;
-import po.StockPO;
 
 public class StockDataServiceTest {
 
