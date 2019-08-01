@@ -1,6 +1,5 @@
 package presentation;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -12,9 +11,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Popup;
-import javafx.stage.Stage;
 import javafx.util.Callback;
 import presentation.viewHelper.Trolley;
 import vo.TrolleyVO;
@@ -82,7 +79,7 @@ public class TrolleyPageUIController {
 
             deleteButton.setOnAction((ActionEvent e)->{
                 int selectedIndex = getTableRow().getIndex();
-                TrolleyVO trolleyVO = (TrolleyVO) tableView.getItems().get(selectedIndex);
+                TrolleyVO trolleyVO = tableView.getItems().get(selectedIndex);
                 stockNameData.remove(trolleyVO);
                 tableView.refresh();
                 trolley.deleteStock(trolleyVO);

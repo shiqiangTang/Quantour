@@ -1,20 +1,16 @@
 package data;
 
-import static org.junit.Assert.*;
+import dataService.StockDataService;
+import org.junit.Before;
+import org.junit.Test;
+import po.StockPO;
+import utility.DateHelper;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Map;
 
-import org.junit.Before;
-import org.junit.Test;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import dataService.StockDataService;
-import po.StockPO;
-import utility.DateHelper;
+import static org.junit.Assert.assertEquals;
 
 public class StockStrategyServiceImplTest {
 	StockStrategyServiceImpl impl;

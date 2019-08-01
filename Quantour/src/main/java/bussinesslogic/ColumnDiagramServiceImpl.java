@@ -1,19 +1,5 @@
 package bussinesslogic;
 
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.logging.SimpleFormatter;
-
-import bussinesslogic.helper.AVGGetComparator;
-import bussinesslogic.helper.MomentumGetComparator;
 import bussinesslogic.helper.StrategyHelper;
 import bussinesslogicservice.ColumnDiagramService;
 import data.StockStrategyServiceImpl;
@@ -24,6 +10,9 @@ import po.YieldPO;
 import utility.DateHelper;
 import vo.ColumnDiagramVO;
 import vo.TrolleyVO;
+
+import java.text.DecimalFormat;
+import java.util.*;
 
 public class ColumnDiagramServiceImpl implements ColumnDiagramService{
 
